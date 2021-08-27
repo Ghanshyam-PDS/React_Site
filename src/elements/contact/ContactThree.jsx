@@ -34,15 +34,15 @@ class ContactThree extends Component {
     if (this.state.rnName && this.state.rnEmail) {
       emailjs
         .send(
-          "service_oc8qznf",
-          "template_oc0q9be",
+          "service_y80hgls",
+          "template_lkmbaod",
           {
             rnEmail: this.state.rnEmail,
             rnSubject: this.state.rnSubject,
             rnMessage: this.state.rnMessage,
             rnName: this.state.rnName
           },
-          "user_HDJ1SCLZ6I6ByO7Ey8D36"
+          "user_wRhafv0o0efddEOJU5ZA7"
         )
         .then(
           (result) => {
@@ -59,8 +59,8 @@ class ContactThree extends Component {
   };
   render() {
     return (
-      <div className="contact-form--1">
-        <div className="container">
+      <div >
+        <div >
           <center>
             <div className="col-lg-8 order-2 order-lg-1">
               <div className="section-title text-left mb--50">
