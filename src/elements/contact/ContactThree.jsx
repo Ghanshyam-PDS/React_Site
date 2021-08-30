@@ -36,11 +36,13 @@ class ContactThree extends Component {
         .send(
           "service_y80hgls",
           "template_lkmbaod",
+          
           {
             rnEmail: this.state.rnEmail,
             rnSubject: this.state.rnSubject,
             rnMessage: this.state.rnMessage,
             rnName: this.state.rnName
+            
           },
           "user_wRhafv0o0efddEOJU5ZA7"
         )
@@ -59,8 +61,8 @@ class ContactThree extends Component {
   };
   render() {
     return (
-      <div >
-        <div >
+      <div className="contact-form--1">
+      <div className="container">
           <center>
             <div className="col-lg-8 order-2 order-lg-1">
               <div className="section-title text-left mb--50">
